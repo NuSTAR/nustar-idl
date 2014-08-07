@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math
+END
+prob_kuiper.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/prob_kuiper.pro
+END
+tabinv.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/tabinv.pro
+END
+poidev.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/poidev.pro
+END
+qtrap.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/qtrap.pro
+END
+meanclip.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/meanclip.pro
+END
+flegendre.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/flegendre.pro
+END
+cspline.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/cspline.pro
+END
+cic.pro
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/cic.pro
+END
+prob_ks.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/prob_ks.pro
+END
+minf_conj_grad.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/minf_conj_grad.pro
+END
+pca.pro
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/pca.pro
+END
+multinom.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/multinom.pro
+END
+zbrent.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/zbrent.pro
+END
+polint.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/polint.pro
+END
+randomgam.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/randomgam.pro
+END
+sixlin.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/sixlin.pro
+END
+fitexy.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/fitexy.pro
+END
+gaussian.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/gaussian.pro
+END
+polyleg.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/polyleg.pro
+END
+randomwish.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/randomwish.pro
+END
+linterp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/linterp.pro
+END
+randomdir.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/randomdir.pro
+END
+ngp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/ngp.pro
+END
+minf_bracket.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/minf_bracket.pro
+END
+mlinmix_err.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/mlinmix_err.pro
+END
+quadterp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/quadterp.pro
+END
+tsum.pro
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/tsum.pro
+END
+kuipertwo.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/kuipertwo.pro
+END
+qsimp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/qsimp.pro
+END
+tsc.pro
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/tsc.pro
+END
+minf_parabol_d.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/minf_parabol_d.pro
+END
+hermite.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/hermite.pro
+END
+randomp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/randomp.pro
+END
+kuiperone.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/kuiperone.pro
+END
+asinh.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/asinh.pro
+END
+.idlwave_catalog
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/.idlwave_catalog
+END
+randomchi.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/randomchi.pro
+END
+trapzd.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/trapzd.pro
+END
+minf_parabolic.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/minf_parabolic.pro
+END
+pent.pro
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/pent.pro
+END
+kstwo.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/kstwo.pro
+END
+linmix_err.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/linmix_err.pro
+END
+mrandomn.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/mrandomn.pro
+END
+poly_smooth.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/poly_smooth.pro
+END
+avg.pro
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/avg.pro
+END
+transform_coeff.pro
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/transform_coeff.pro
+END
+aaareadme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/aaareadme.txt
+END
+ksone.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/math/ksone.pro
+END

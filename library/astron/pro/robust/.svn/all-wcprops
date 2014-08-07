@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust
+END
+autohist.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/autohist.pro
+END
+biweight_mean.pro
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/biweight_mean.pro
+END
+rob_checkfit.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/rob_checkfit.pro
+END
+robust_poly_fit.pro
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/robust_poly_fit.pro
+END
+.idlwave_catalog
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/.idlwave_catalog
+END
+robust_linefit.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/robust_linefit.pro
+END
+histogauss.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/histogauss.pro
+END
+resistant_mean.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/resistant_mean.pro
+END
+robust_sigma.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/robust_sigma.pro
+END
+aaareadme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/aaareadme.txt
+END
+medsmooth.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/robust/medsmooth.pro
+END
