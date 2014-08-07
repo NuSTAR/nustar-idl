@@ -1,0 +1,551 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro
+END
+uvbybeta.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/uvbybeta.pro
+END
+mag2flux.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/mag2flux.pro
+END
+astro.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/astro.pro
+END
+xyz.pro
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/xyz.pro
+END
+month_cnv.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/month_cnv.pro
+END
+fm_unred.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/fm_unred.pro
+END
+helio.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/helio.pro
+END
+geodetic2geo.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/geodetic2geo.pro
+END
+eq2hor.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/eq2hor.pro
+END
+nutate.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/nutate.pro
+END
+ticpos.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/ticpos.pro
+END
+jdcnv.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/jdcnv.pro
+END
+baryvel.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/baryvel.pro
+END
+bprecess.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/bprecess.pro
+END
+co_aberration.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/co_aberration.pro
+END
+co_refract.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/co_refract.pro
+END
+aitoff.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/aitoff.pro
+END
+precess_cd.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/precess_cd.pro
+END
+imf.pro
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/imf.pro
+END
+euler.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/euler.pro
+END
+helio_jd.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/helio_jd.pro
+END
+arrows.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/arrows.pro
+END
+jprecess.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/jprecess.pro
+END
+sixty.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/sixty.pro
+END
+tic_one.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/tic_one.pro
+END
+mag2geo.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/mag2geo.pro
+END
+geo2mag.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/geo2mag.pro
+END
+co_nutate.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/co_nutate.pro
+END
+altaz2hadec.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/altaz2hadec.pro
+END
+flux2mag.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/flux2mag.pro
+END
+posang.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/posang.pro
+END
+sunpos.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/sunpos.pro
+END
+gcirc.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/gcirc.pro
+END
+glactc_pm.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/glactc_pm.pro
+END
+planet_coords.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/planet_coords.pro
+END
+hor2eq.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/hor2eq.pro
+END
+geo2geodetic.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/geo2geodetic.pro
+END
+cosmo_param.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/cosmo_param.pro
+END
+lsf_rotate.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/lsf_rotate.pro
+END
+.idlwave_catalog
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/.idlwave_catalog
+END
+helio_rv.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/helio_rv.pro
+END
+astdisp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/astdisp.pro
+END
+planck.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/planck.pro
+END
+vactoair.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/vactoair.pro
+END
+tenv.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/tenv.pro
+END
+mphase.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/mphase.pro
+END
+jplephread.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/jplephread.pro
+END
+imcontour.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/imcontour.pro
+END
+aaareadme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/aaareadme.txt
+END
+lumdist.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/lumdist.pro
+END
+calz_unred.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/calz_unred.pro
+END
+juldate.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/juldate.pro
+END
+get_coords.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/get_coords.pro
+END
+premat.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/premat.pro
+END
+moonpos.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/moonpos.pro
+END
+arcbar.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/arcbar.pro
+END
+ydn2md.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/ydn2md.pro
+END
+ccm_unred.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/ccm_unred.pro
+END
+date_conv.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/date_conv.pro
+END
+ticlabels.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/ticlabels.pro
+END
+tics.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/tics.pro
+END
+adstring.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/adstring.pro
+END
+ct2lst.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/ct2lst.pro
+END
+get_date.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/get_date.pro
+END
+geo2eci.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/geo2eci.pro
+END
+date.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/date.pro
+END
+eci2geo.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/eci2geo.pro
+END
+qdcb_grid.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/qdcb_grid.pro
+END
+observatory.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/observatory.pro
+END
+galage.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/galage.pro
+END
+jplephtest.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/jplephtest.pro
+END
+hadec2altaz.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/hadec2altaz.pro
+END
+daycnv.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/daycnv.pro
+END
+eqpole.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/eqpole.pro
+END
+ten.pro
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/ten.pro
+END
+get_juldate.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/get_juldate.pro
+END
+deredd.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/deredd.pro
+END
+eqpole_grid.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/eqpole_grid.pro
+END
+glactc.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/glactc.pro
+END
+zang.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/zang.pro
+END
+jplephinterp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/jplephinterp.pro
+END
+gal_uvw.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/gal_uvw.pro
+END
+precess.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/precess.pro
+END
+tdb2tdt.pro
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/tdb2tdt.pro
+END
+ismeuv.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/ismeuv.pro
+END
+airtovac.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/airtovac.pro
+END
+gal_flat.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/gal_flat.pro
+END
+aitoff_grid.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/aitoff_grid.pro
+END
+precess_xyz.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/precess_xyz.pro
+END
+radec.pro
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/radec.pro
+END
+zenpos.pro
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/astro/zenpos.pro
+END

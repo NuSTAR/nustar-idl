@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table
+END
+tab_write.pro
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_write.pro
+END
+tab_print.pro
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_print.pro
+END
+table_list.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/table_list.pro
+END
+tab_nullrow.pro
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_nullrow.pro
+END
+tab_create.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_create.pro
+END
+tab_del.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_del.pro
+END
+tab_put.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_put.pro
+END
+table_sort.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/table_sort.pro
+END
+table_help.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/table_help.pro
+END
+tab_size.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_size.pro
+END
+tab_null.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_null.pro
+END
+tab_read.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_read.pro
+END
+tab_fortospp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_fortospp.pro
+END
+tab_spptofor.pro
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_spptofor.pro
+END
+tab_modcol.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_modcol.pro
+END
+tab_col.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_col.pro
+END
+table_print.pro
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/table_print.pro
+END
+.idlwave_catalog
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/.idlwave_catalog
+END
+tab_expand.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_expand.pro
+END
+table_ext.pro
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/table_ext.pro
+END
+tab_val.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_val.pro
+END
+table_calc.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/table_calc.pro
+END
+table_delete.pro
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/table_delete.pro
+END
+tab_addcol.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_addcol.pro
+END
+tab_sort.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/tab_sort.pro
+END
+table_append.pro
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/table_append.pro
+END
+aaareadme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nustar/!svn/ver/3621/trunk/SOC/Level1/idl/startup/lib/astron/pro/sdas_table/aaareadme.txt
+END
