@@ -1,13 +1,6 @@
 Tracking updates for support libraries:
 
-Coyote Libraries update as of Dec 2013:
-
-catalyst
-coyote
-coyoteplus
-retired_coyote_library
-
-Coyote Libraries can be independently found here: http://www.idlcoyote.com
+NB: Coyote libraries have recently migrated to GitHub. Please clone directly from the Coyote GitHub repo: https://github.com/davidwfanning/idl-coyote
 
 
 AstroLib update as of August 2013:
