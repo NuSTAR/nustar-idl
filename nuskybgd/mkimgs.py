@@ -19,8 +19,8 @@ else:
 
 slow=sys.argv[3].split(',')
 shigh=sys.argv[4].split(',')
-elow=[int(i) for i in slow]
-ehigh=[int(i) for i in shigh]
+elow=[float(i) for i in slow]
+ehigh=[float(i) for i in shigh]
 clow=[str(int((i-1.6)/0.04+1)) for i in elow]
 chigh=[str(int((i-1.6)/0.04)) for i in ehigh]
 
