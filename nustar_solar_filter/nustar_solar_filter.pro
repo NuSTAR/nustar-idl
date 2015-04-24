@@ -45,7 +45,9 @@ pro nustar_solar_filter,cldir,obsid,regfile,abstr,e1,e2,imfile,tbin=tbin,mindt=m
                                 ; This loops allows the user to do
                                 ; more than one OBSID at a
                                 ; time...probably better to force them
-                                ; to do it once...
+                                ; to do it one by one since this is
+                                ; interactive...
+
   t0=fltarr(n_elements(obsid))
   nt=fltarr(n_elements(obsid))
   for ep=0,n_elements(obsid)-1 do begin
@@ -134,7 +136,9 @@ for ep=0,n_elements(obsid)-1 do for iab=0,n_elements(abstr)-1 do begin
 
                                 ; Read in events and filter out things
                                 ; outside of the (0--1000 ) and
-                                ; outside of the pi energy range.
+                                ; outside of the pi energy range amd
+                                ; in the "good" part of the spatial
+                                ; mask that you cosntructed above...
     evts=mrdfits(cldir[ep]+'/nu'+obsid[ep]+$
           abstr[iab]+'01_cl.evt',1,eh,/silent)
     ii=where(mask[evts.x-1,evts.y-1] gt 0.5 and evts.pi ge e1 and evts.pi lt e2)
