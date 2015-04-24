@@ -154,7 +154,18 @@ fits_read,cldir+imname,data,header
 fits_write,outim,bgdim,header
 if not keyword_set(nobsub) then begin
     namesplit=strsplit(imname,'.',/extract)
-    fits_write,cldir+namesplit[0]+'bsub.'+namesplit[1],data-bgdim,header
+                                ; Assume that the last . is one
+                                ; assocaited with .img or .fits, but
+                                ; allow other "."
+    newname = cldir
+    nfields = n_elements(namesplit)
+    newname += namesplit[0]
+    FOR i = 1, nfields -2 DO newname+='.'+namesplit[i]
+    newname+='bsub.'+namesplit[nfields-1]
+
+
+    fits_write, newname, data-bgdim, header
+
 endif
 
 end
