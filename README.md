@@ -1,9 +1,9 @@
 nustar-idl
 ==========
 
-Repository for NuSTAR IDL-based analysis and support scripts
+Repository for NuSTAR IDL-based analysis and support scripts. The individual directories will have their own README files.
 
-Requirements:
+*** Requirements ***
 
 The nustar-idl repo is heavily dependnet on the AstroLib and Coyote libraries. You MUST have these libraries in your IDL !path. 
 
