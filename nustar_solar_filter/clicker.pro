@@ -22,6 +22,7 @@ pos = [ (convert_coord(!p.clip(0:1),/device,/to_data))[0:1],$
 xr = [pos(0),pos(2)]
 yr = [pos(1),pos(3)]
 
+
 ; Initiatlize variables
 n = 0.
 undefine,xarr
