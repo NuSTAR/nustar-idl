@@ -1,0 +1,79 @@
+This version of nustar_solar_filter uses the FTOOLs to generate the
+lightcurve and then does some simple filtering on the data.
+
+- Step (1) Make a lightcurve using nuproducts. Use the
+  run_nuproducts_lightcurve.pro IDL script, which calls nuproducts.
+
+Example:
+                                                                                                
+IDL> evtfile = 'nu80001085002A01_cl.evt'                                                                    
+IDL> run_nuproducts_lightcurve, evtfile,/no_lc_corr
+
+Note that the default screening energy is 3--20 keV, which is useful
+for solar flares.
+
+The "/no_lc_corr" option turns off vignetting and PSF corrections,
+which is correct to do for the solar background since it's not
+focused by the optics.
+
+This will generate an output file called:
+
+nu80001085002A01_cl_3.00to20.00keV_100.00s_sr.lc
+
+(the filename will change depending on how you change the filtering
+parameters and the bin size).
+
+Note that there are other output files also created during this stage
+by nuproducts, including a PS version of the lightcurve that's has
+been slightly rebinned. You can safely delete or keep these at your
+discretion.
+
+- Step (2) Filter out high count rate periods using the
+  nustar_filter_lightcuve.pro IDL script.
+
+Example:
+
+IDL> lcfile = 'nu80001085002A01_cl_3.00to20.00keV_100.00s_sr.lc'
+IDL> nustar_filter_lightcurve, lcfile, /show
+
+This will plot the lightcurve, the rate cutoff (the default is 0.5
+counts / sec which is roughly correct for the 3 to 20 keV band
+selected by default above) as a dashed horizontal red line, and
+any new GTIs that were created by the script.
+
+The GTIs will appear as vertical green lines with the solid line
+showing the start of a GTI and the dashed line showing the end of a
+GTI.
+
+If no new GTIs are required then you will get a warning message from
+the script.
+
+If new GTIs are required, then the script produces an output file called:
+
+rate_filter_gtis.fits
+
+This file should be used as an input to nuproducts via the usrgtifile
+keyword for making spectra, lightcurves, and images.
+
+- Step (3) Optional: Check that the rate file has removed the flare
+  events by rerunning Step (1) using the usrgti file.
+
+Example:
+
+IDL> evtfile = 'nu80001085002A01_cl.evt'                                                         
+IDL> run_nuproducts_lightcurve, evtfile,/no_lc_corr,usrgti='rate_filter_gtis.fits', outsuffix='_rate_filt'
+
+The usrgti file is now passed to nuproducts when making the
+lightcurve. The outsuffix keyword is appended to the output file name
+so that you don't overwrite the old lightcurve and can compare the two.
+
+This produces a new output lightcurve file called:
+
+nu80001085002A01_cl_3.00to20.00keV_100.00s_rate_filt_sr.lc
+
+Re-run the filtering to ensure that all of the high bins are removed
+using the following:
+
+IDL> new_lcfile = 'nu80001085002A01_cl_3.00to20.00keV_100.00s_rate_filt_sr.lc'
+IDL> nustar_filter_lightcurve, new_lcfile, /show
+

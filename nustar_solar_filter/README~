@@ -1,0 +1,9 @@
+New version of nustar_solar_filter that is based on FTOOLs rather than
+IDL workarounds.
+
+- Step (1) Make a lightcurve using nuproducts. Use the
+  nustar_make_lightcurve.sh script, which calls nuproducts.
+
+- Step (2) Use XSELECT to filter out "bad" time ranges. I'll see if
+  there is an easy way to do this.
+
