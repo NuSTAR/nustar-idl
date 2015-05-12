@@ -14,8 +14,16 @@ old_gtis = mrdfits(infile, 'GTI', gti_header)
 
 ; Okay, step 1: filter the lighturve
 
+
 goodones = where(lc.rate LT rate, ngood)
-IF ngood EQ 0 THEN message, 'nustar_filter_lightcurve: Something is wrong, filtering too strict.'
+nlc = n_elements(lc) 
+; If fewer than half of the bins are good, then this is too strict.
+
+IF 1.0 * ngood / nlc LT 0.5 THEN BEGIN
+   print, 'Error: nustar_filter_lightcurve: Something is wrong, filtering too strict.'
+   print, 'Current filter rate='+string(rate)
+   return
+ENDIF
 
 
 ; Set up the "new" GTIs:
@@ -24,6 +32,9 @@ gti_stub = {start:0., stop:0.}
 
 
 badones = where(lc.rate GE rate, nbad)
+
+
+
 IF nbad EQ 0 THEN BEGIN
    print, 'Nothing to be done...'
 ENDIF ELSE begin
@@ -45,7 +56,9 @@ ENDIF ELSE begin
             IF i+1 Ge nbad -1 THEN BREAK
          ENDWHILE
       ENDIF
-      gti_stub.start = lc[badones[i]+1].time + dt
+      IF badones[i]+1 GE n_elements(lc) THEN bin_end = max(lc.time) + dt ELSE $
+         bin_end = lc[badones[i]+1].time + dt
+      gti_stub.start = bin_end
       
    endfor
    gti_stub.stop = max(lc.time) + dt
@@ -58,7 +71,8 @@ ENDIF ELSE begin
 ENdelse
 
 IF keyword_set(show) THEN begin 
-   plot, lc.time, lc.rate, psym = 4, /xsty, xrange = [min(lc.time) - 100, max(lc.time)+100], yrange = [0, 1.1*rate], /yst
+   plot, lc.time, lc.rate, psym = 4, /xsty, xrange = [min(lc.time) -   100, max(lc.time)+100], yrange = [0, 1.1*(rate > max(lc.rate))], /yst, $
+         xtitle = 'NuSTAR Epoch Seconds', ytitle = 'Counts / sec in bandpass'
 
    IF nbad GT 0 THEN begin 
       oplot, lc[badones].time, lc[badones].rate, color = cgColor('Red'), psym =4
