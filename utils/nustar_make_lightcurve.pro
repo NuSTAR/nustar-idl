@@ -1,36 +1,35 @@
-
-PRO run_nuproducts_lightcurve, infile, $
-                               binsize=binsize, erange=erange, $
-                               usrgti=usrgti, barycorr=barycorr, $
-                               region=region, $
-                               outdir=outdir, no_lc_corr=no_lc_corr, $
-                               outsuffix=outsuffix
-
 ; Purpose:
 ; Easy IDL wrapper for making lighturves using nuproducts.
 ; syntax: 
 ;
-; run_nuproducts_lightcurve, infile, <opts>
+; nustar_make_lightcurve, infile, <opts>
 ;
 ; Example:
-; run_nuproducts_lightcurve, '80001085002/event_cl/nu80001085002A01_cl.evt.gz', erange=[3 20], region="80001085002/event_cl/src.reg", binsize=100
+; nustar_make_lightcurve, '80001085002/event_cl/nu80001085002A01_cl.evt.gz', erange=[3 20], region="80001085002/event_cl/src.reg", binsize=100
 
 ; Optional inputs (defaults):
 ; binsize:
 ; The bin size (in seconds) that you want to use. (100 s)-> binsize=100
+;
 ; erange:
 ; Energy range for the lighcurve (3 to 20 keV) -> erange=[3, 20]
 ; region:
 ; Full path to a ds9 region file that you want to use for input. If no
 ; region is supplied then the code automatically uses a large regin that
 ; should cover the entire focal plane.
+;
 ; barycorr:
 ; Apply the barycorr based on the position of the source in the FITS header. 
+;
 ; no_lc_corr (boolean):
 ; Don't apply the PSF and vignetting corrections to the lightcurve.
 ; Note: Turning off these corrections should decrease the run time dramatically
 ; but should not be used for science analysese (e.g. use this only for checking
 ; for solar flare increases in the background.
+;
+; usrgti:
+; Optional input usrgti file to use with nuproducts.
+
 
 ; Optional outputs (defaults):
 ; outdir
@@ -38,10 +37,22 @@ PRO run_nuproducts_lightcurve, infile, $
 ; outsiffix
 ; Optional tag to add to the end of the lightcurve filename. Example: outsuffix='_gtifiltered'
 
-; Author: Brian Grefenstette (bwgref@srl.caltech.edu)
-; Last Update: 2015/05/06
+
+; History:
+
+; 2015/05/14, Updated readme information to include usrgti keyword info.
+; 2015/05/06, Creation, Brian Grefenstette
+
+
+PRO nustar_make_lightcurve, infile, $
+                               binsize=binsize, erange=erange, $
+                               usrgti=usrgti, barycorr=barycorr, $
+                               region=region, $
+                               outdir=outdir, no_lc_corr=no_lc_corr, $
+                               outsuffix=outsuffix
+
  
-syntax='syntax: run_nuproducts_lightcurve, infile, <opts> '
+syntax='syntax: nustar_make_lightcurve, infile, <opts> '
 
 ; Keyword checks:
  IF ~keyword_set(binsize) THEN binsize = 100.
