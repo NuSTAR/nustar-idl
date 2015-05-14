@@ -13,7 +13,7 @@ PRO run_nuproducts_lightcurve, infile, $
 ; run_nuproducts_lightcurve, infile, <opts>
 ;
 ; Example:
-; run_nuproducts_lightcurve '80001085002/event_cl/nu80001085002A01_cl.evt.gz' erange=[3 20] region="80001085002/event_cl/src.reg" binsize=100
+; run_nuproducts_lightcurve, '80001085002/event_cl/nu80001085002A01_cl.evt.gz', erange=[3 20], region="80001085002/event_cl/src.reg", binsize=100
 
 ; Optional inputs (defaults):
 ; binsize:
