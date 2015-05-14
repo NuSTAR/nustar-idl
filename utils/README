@@ -1,0 +1,23 @@
+This directory hosts useful utility scripts for performing data
+anlysis with NuSTAR.
+
+One line descriptions:
+
+- push.pro 
+
+Purpose: Reproduces popular "push" functionality from other languages.
+Original Author: Jeremy Bailin
+Taken from the Public release of the JBIU (now defunct?).
+
+- make_nustar_image.pro
+
+Simple IDL wrapper for calling nuproducts and ONLY making images in a
+given energy band.
+
+Original author: Brian Grefenstette
+
+- run_nupipe.sh
+
+Simple shell script for running nupipeline with several of the
+appropriate keywords set.
+
