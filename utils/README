@@ -9,15 +9,19 @@ Purpose: Reproduces popular "push" functionality from other languages.
 Original Author: Jeremy Bailin
 Taken from the Public release of the JBIU (now defunct?).
 
-- make_nustar_image.pro
+- nustar_make_image.pro
 
 Simple IDL wrapper for calling nuproducts and ONLY making images in a
-given energy band.
+given energy band. Also accepts usrgti inputs.
 
 Original author: Brian Grefenstette
+
+- nustar_make_lightcurve.pro
+
+Simple IDL wrapper for calling nuproducts and ONLY making lightcurves in a
+given energy band. Accepts usrgti inputs and can apply barycentric corrections.
 
 - run_nupipe.sh
 
 Simple shell script for running nupipeline with several of the
 appropriate keywords set.
-
