@@ -2,12 +2,12 @@ This version of nustar_solar_filter uses the FTOOLs to generate the
 lightcurve and then does some simple filtering on the data.
 
 - Step (1) Make a lightcurve using nuproducts. Use the
-  run_nuproducts_lightcurve.pro IDL script, which calls nuproducts.
+  make_nustar_lightcurve.pro IDL wrapper script, which calls nuproducts.
 
 Example:
                                                                                                 
 IDL> evtfile = 'nu80001085002A01_cl.evt'                                                                    
-IDL> run_nuproducts_lightcurve, evtfile,/no_lc_corr
+IDL> nustar_make_lightcurve, evtfile,/no_lc_corr
 
 Note that the default screening energy is 3--20 keV, which is useful
 for solar flares.
