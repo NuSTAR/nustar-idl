@@ -61,7 +61,7 @@ keyword for making spectra, lightcurves, and images.
 Example:
 
 IDL> evtfile = 'nu80001085002A01_cl.evt'                                                         
-IDL> run_nuproducts_lightcurve, evtfile,/no_lc_corr,usrgti='rate_filter_gtis.fits', outsuffix='_rate_filt'
+IDL> nustar_make_lightcurve, evtfile,/no_lc_corr,usrgti='rate_filter_gtis.fits', outsuffix='_rate_filt'
 
 The usrgti file is now passed to nuproducts when making the
 lightcurve. The outsuffix keyword is appended to the output file name

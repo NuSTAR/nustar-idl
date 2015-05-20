@@ -13,7 +13,8 @@
 
 ; Optional outputs (defaults):
 ; outdir
-; Full path where you want the lightcurve to go.
+; Full path where you want the image to go. The default is wherever
+; the input file is.
 ; outsuffix
 ; Optional tag to add to the end of the image filename. Example: outsuffix='_gtifiltered'
 
