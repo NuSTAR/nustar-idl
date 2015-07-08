@@ -108,12 +108,14 @@ readcol,auxildir+'ratios'+ab+'.dat',index1,index2,b0,b1,b2,b3,ebreak,/silent
 eline=eline[0:n_elements(width)-3]
 width=width[0:n_elements(width)-3]
 
+
 readcol,paramfile,p,/silent
 apnorm=p[0]*0.002353*apreg/32.
 fcxbnorm=p[1]*dettotfrac
 ;neutnorm=p[2]*dettotfrac
 readcol,paramfile,p0,p1,p2,p3,/silent,skipline=3
 pinstr=fltarr(n_elements(p0))
+
 for i=0,n_elements(pinstr)-1 do pinstr[i]=total([p0[i],p1[i],p2[i],p3[i]]*detfrac)
 if grxe then begin
     readcol,paramfile,blah,gp,format='(A,F)',/silent
@@ -204,7 +206,7 @@ printf,lun,str(ebreak[1])+' -1'
 printf,lun,str(index2[1])+' -1'
 printf,lun,str(pinstr[n_elements(eline)+1])
 printf,lun,'fakeit none & '+auxildir+'diag.rmf &  & '+ctstat+' &  & '+$
-      srcdir+'/bgdintn'+fakname+' & '+str(livetime*expfactor)
+      srcdir+'/bgdintcont'+fakname+' & '+str(livetime*expfactor)
 printf,lun,'data none'
 
 if grxe then begin
@@ -229,32 +231,60 @@ endif
 printf,lun,'exit'
 free_lun,lun
 
+f = file_info(srcdir+'/bgdintcont'+fakname)
+IF f.exists THEN spawn, 'rm '+srcdir+'/bgdintcont'+fakname
+
 spawn,'xspec - temp.xcm'
 spawn,'rm -f temp.xcm'
+
+
 
 spawn,'fparkey '+str(backscl)+' '+srcdir+'/bgdap'+fakname+' BACKSCAL'
 spawn,'fparkey '+str(backscl)+' '+srcdir+'/bgdfcxb'+fakname+' BACKSCAL'
 spawn,'fparkey '+str(backscl)+' '+srcdir+'/bgdinstr'+fakname+' BACKSCAL'
-spawn,'fparkey '+str(backscl)+' '+srcdir+'/bgdintn'+fakname+' BACKSCAL'
+spawn,'fparkey '+str(backscl)+' '+srcdir+'/bgdintcont'+fakname+' BACKSCAL'
 if grxe then spawn,'fparkey '+str(backscl)+' '+srcdir+'/bgdgrxe'+fakname+' BACKSCAL'
 
 spawn,'pwd > '+srcdir+'/temp'
 cd,srcdir
 thisdir='' ;cldir+specdir+'/'
-if not grxe then $
-      spawn,'mathpha '+thisdir+'bgdap'+fakname+'+'+thisdir+'bgdfcxb'+fakname+$
-            '+'+thisdir+'bgdinstr'+fakname+'+'+thisdir+'bgdintn'+fakname+$
-            ' COUNTS '+thisdir+'bgd'+fakname+' '+$
-            str(livetime*expfactor)+' 1.0 0 clobber=yes' $
-  else spawn,'mathpha '+thisdir+'bgdap'+fakname+'+'+thisdir+'bgdfcxb'+fakname+$
-            '+'+thisdir+'bgdinstr'+fakname+'+'+thisdir+'bgdintn'+fakname+$
-            '+'+thisdir+'bgdgrxe'+fakname+$
+if not grxe then begin
+  
+      print,'mathpha '+thisdir+'bgdap'+fakname+'+'+thisdir+'bgdfcxb'+fakname+$
+            '+'+thisdir+'bgdinstr'+fakname+'+'+thisdir+'bgdintcont'+fakname+$
             ' COUNTS '+thisdir+'bgd'+fakname+' '+$
             str(livetime*expfactor)+' 1.0 0 clobber=yes'
+
+
+      spawn,'mathpha '+thisdir+'bgdap'+fakname+'+'+thisdir+'bgdfcxb'+fakname+$
+            '+'+thisdir+'bgdinstr'+fakname+'+'+thisdir+'bgdintcont'+fakname+$
+            ' COUNTS '+thisdir+'bgd'+fakname+' '+$
+            str(livetime*expfactor)+' 1.0 0 clobber=yes'
+
+      print, expfactor*livetime
+
+      spawn,'mathpha '+$
+            thisdir+'bgdinstr'+fakname+'+'+thisdir+'bgdintcont'+fakname+$
+            ' COUNTS '+thisdir+'bgd_allint_'+fakname+' '+$
+            str(livetime*expfactor)+' 1.0 0 clobber=yes'
+
+
+   ENDIF ELSE  spawn,'mathpha '+thisdir+'bgdap'+fakname+'+'+thisdir+'bgdfcxb'+fakname+$
+                     '+'+thisdir+'bgdinstr'+fakname+'+'+thisdir+'bgdintcont'+fakname+$
+                     '+'+thisdir+'bgdgrxe'+fakname+$
+                     ' COUNTS '+thisdir+'bgd'+fakname+' '+$
+                     str(livetime*expfactor)+' 1.0 0 clobber=yes'
 spawn,'fparkey '+str(backscl)+' '+'bgd'+fakname+' BACKSCAL'
 print,'fparkey '+str(backscl)+' '+'bgd'+fakname+' BACKSCAL'
 spawn,'fparkey bgd'+fakname+' '+specname+' BACKFILE'
 print,'fparkey bgd'+fakname+' '+specname+' BACKFILE'
+
+
+
+spawn,'fparkey '+str(backscl)+' '+'bgd_allint_'+fakname+' BACKSCAL'
+print,'fparkey '+str(backscl)+' '+'bgd_allint_'+fakname+' BACKSCAL'
+
+
 line=''
 openr,lun,'temp',/get_lun
 readf,lun,line
