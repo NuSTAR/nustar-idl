@@ -9,7 +9,7 @@ To contribute to this repository, please fork off your own version, add you chan
 
 *** Requirements ***
 
-The nustar-idl repo is heavily dependnet on the AstroLib and Coyote libraries. You MUST have these libraries in your IDL !path. 
+The nustar-idl repo is heavily dependent on the AstroLib and Coyote libraries. You MUST have these libraries in your IDL !path. 
 
 Fortunately, these libraries are also now on GitHub here:
 
