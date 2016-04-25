@@ -93,7 +93,7 @@ END
 
 
 PRO nustar_chu2gti, infile, $
-                       outdir=outdir, show = show, ps=ps
+                       outdir=outdir, show = show, ps=ps, save = save
 
 
   myname='nustar_chu2gti'
@@ -115,8 +115,8 @@ PRO nustar_chu2gti, infile, $
 
                                 ; Get paths for below.
   
-  auxpath = file_dirname(datpath)+'/../auxil/'
-  hkpath = file_dirname(datpath)+'/../hk/'
+  auxpath = datpath+'/../auxil/'
+  hkpath = datpath+'/../hk/'
 
                                 ; Set the outut directory if not given as a keyword:
   IF ~keyword_set(outdir) THEN outdir = datpath 
@@ -125,6 +125,9 @@ PRO nustar_chu2gti, infile, $
                                 ; Get the CHU file. This should catch
                                 ; both .fits and .fits.gz
   chufile = file_search(hkpath, '*_chu123.fits*')
+
+  ; Check to make sure that the chufile exists:
+  IF ~file_test(chufile) THEN message, 'nustar_chu2gti: File not found: '+chufile+' '+hkpath
 
 
                                 ; Check to see if the event file is
@@ -212,6 +215,7 @@ PRO nustar_chu2gti, infile, $
      endfor
      if keyword_set(ps) then cgPs_close
   ENDIF
+
 
   
 END
