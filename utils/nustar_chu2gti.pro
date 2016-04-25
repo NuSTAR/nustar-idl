@@ -93,7 +93,8 @@ END
 
 
 PRO nustar_chu2gti, infile, $
-                       outdir=outdir, show = show, ps=ps
+                    outdir=outdir, show = show, ps=ps, save = save, $
+                    no_output = no_output
 
 
   myname='nustar_chu2gti'
@@ -115,8 +116,8 @@ PRO nustar_chu2gti, infile, $
 
                                 ; Get paths for below.
   
-  auxpath = file_dirname(datpath)+'/../auxil/'
-  hkpath = file_dirname(datpath)+'/../hk/'
+  auxpath = datpath+'/../auxil/'
+  hkpath = datpath+'/../hk/'
 
                                 ; Set the outut directory if not given as a keyword:
   IF ~keyword_set(outdir) THEN outdir = datpath 
@@ -125,6 +126,9 @@ PRO nustar_chu2gti, infile, $
                                 ; Get the CHU file. This should catch
                                 ; both .fits and .fits.gz
   chufile = file_search(hkpath, '*_chu123.fits*')
+
+  ; Check to make sure that the chufile exists:
+  IF ~file_test(chufile) THEN message, 'nustar_chu2gti: File not found: '+chufile+' '+hkpath
 
 
                                 ; Check to see if the event file is
@@ -146,15 +150,16 @@ PRO nustar_chu2gti, infile, $
   ; Read in the events that you want to filter. The CHU combinations
   ; will be interpolated onto the event times, which will be used to
   ; make the GTI below.
-  evt = mrdfits(infile, 'EVENTS', hh)
+  evt = mrdfits(infile, 'EVENTS', hh, /silent)
 
+  evt_gti = mrdfits(infile, 'GTI',gtih, /silent) 
  
                                 ; Loop over CHU combinations to get the mask value:
   mask = 0
   for chunum=1,3 do BEGIN
 
                                 ; Read in CHU information
-    chu = mrdfits(chufile,chunum,hh)
+    chu = mrdfits(chufile,chunum,hh, /silent)
 
     maxres = 20 ;; [arcsec] maximum solution residual
     if chunum EQ 4 then qind = 2 else qind = 1
@@ -179,11 +184,14 @@ PRO nustar_chu2gti, infile, $
   names = ['chu1','chu2','chu3','chu12','chu13','chu23','chu123']
 
                                 ; Generate output GTI files:
-  for i=0, n_elements(options)-1 do BEGIN
-     sel = where(evtmask eq options[i],nn) ; Confirm that there is time spent with this mask.
-     if nn gt 0 then $
-        nustar_write_chu_gti, mask, chu.time, options[i], evtstem+'_'+names[i], outdir
-  ENDFOR
+
+  IF ~keyword_set(no_output) THEN begin 
+     for i=0, n_elements(options)-1 do BEGIN
+        sel = where(evtmask eq options[i],nn) ; Confirm that there is time spent with this mask.
+        if nn gt 0 then $
+           nustar_write_chu_gti, mask, chu.time, options[i], evtstem+'_'+names[i], outdir
+     ENDFOR
+  ENDIF
 
 
                                 ; Generate graphical output
@@ -193,6 +201,13 @@ PRO nustar_chu2gti, infile, $
 
      plot, chu.time, mask, psym = 3, xtitle = 'NuSTAR Epoch Seconds', $
                                 ytitle = 'CHU Combination' ; Plot CHU combination vs time.
+
+
+     FOR i = 0, n_elements(evt_gti) -1 DO BEGIN
+;        oplot, evt_gti[i].start * [1, 1], !y.crange, color = cgcolor('Red')        
+;        oplot, evt_gti[i].stop * [1, 1], !y.crange, linestyle = 2, color = cgcolor('Red')
+        oplot, [evt_gti[i].start, evt_gti[i].stop], !y.crange, color = cgcolor('Red')
+     ENDFOR
 
      color = ['red','green','blue','magenta','brown','pink','lightblue']
      
@@ -212,6 +227,7 @@ PRO nustar_chu2gti, infile, $
      endfor
      if keyword_set(ps) then cgPs_close
   ENDIF
+
 
   
 END
