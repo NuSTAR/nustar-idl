@@ -10,14 +10,15 @@
 ; Optional inputs (defaults):
 ; erange:
 ; Energy range for the lighcurve (3 to 79 keV) -> erange=[3, 79]
-
-; Optional outputs (defaults):
 ; outdir
 ; Full path where you want the image to go. The default is wherever
 ; the input file is.
 ; outsuffix
 ; Optional tag to add to the end of the image filename. Example: outsuffix='_gtifiltered'
 
+; Optional outputs (defaults):
+; outfile
+; Full path to the output file
 
 ; History:
 
@@ -27,28 +28,29 @@
 
 PRO nustar_make_image, infile, $
                        erange = erange, outdir = outdir, $
-                       usrgti=usrgti, outsuffix=outsuffix
+                       usrgti=usrgti, outsuffix=outsuffix, $
+                       outfile=outfile
 
 
   syntax='syntax: nustar_make_image, infile, <opts> '
 
-
+  
   myname = 'nustar_make_image'
-
+  
                                 ; Check for HEASoft install
- heasoft = getenv('HEADAS')
- IF strcmp(heasoft, '') THEN BEGIN
-    print, myname+': Init heasoft first.'
-    return
- ENDIF
- 
+  heasoft = getenv('HEADAS')
+  IF strcmp(heasoft, '') THEN BEGIN
+     print, myname+': Init heasoft first.'
+     return
+  ENDIF
+  
 
                                 ; Check to see if infile exists:
- IF n_elements(infile) EQ 0 THEN BEGIN
-    print, syntax
-    return
- ENDIF
-
+  IF n_elements(infile) EQ 0 THEN BEGIN
+     print, syntax
+     return
+  ENDIF
+  
  IF ~file_test(infile) THEN BEGIN
     print, myname+': Input file: '+infile+' does not exist.'
     return
@@ -117,5 +119,7 @@ PRO nustar_make_image, infile, $
 
  print, cmd
  spawn, cmd
+
+ outfile = outdir+'/'+stemout+'_sk.img'
 
 end
