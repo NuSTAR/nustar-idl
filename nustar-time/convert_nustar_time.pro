@@ -31,10 +31,10 @@ FUNCTION convert_nustar_time, time, $
 ;; Brian Grefenstette
 ; Note: uses date_conv (astrolib) extensively
 
-  print, time, format = '(d0)'
+;  print, time, format = '(d0)'
   if  strcmp(typename(time), 'FLOAT') then time = double(time)
-  print, typename(time)
-  print, time, format = '(d0)'
+;  print, typename(time)
+;  print, time, format = '(d0)'
   mjdref = double(55197.)       ; reference time for NuSTAR. NuSTAR time is seconds
                ; since this epoch
 
